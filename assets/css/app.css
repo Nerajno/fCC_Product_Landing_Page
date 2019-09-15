@@ -1,10 +1,144 @@
 /* Navbar */
 #header{
-    color: red;
+    color: aquamarine;
     background-color: aquamarine;
     text
 
 #pageLogo{
     height:40px;
     width:auto;
+}
+
+body{
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    -o-background-size: 100%;
+    padding-top: 25px;
+    margin-top: 100px;
+    position: relative;
+    }
+    
+    @media (min-width: 768px)
+    .navbar-fixed-top {
+    
+    }
+      
+    
+    /* Start of Navbar Stuff */
+    .navbar-inverse{
+      font-family: 'Montserrat', sans-serif;
+      margin: auto;
+    }
+    
+    .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
+      color:#3B81BF;
+      font-size: larger;
+    }
+    
+    .navbar-inverse .navbar-nav>li>a {
+      color: #3B81BF;
+    }
+    
+    .dropdown{
+      color: #3B81BF;
+      text-transform:uppercase;
+    }
+    
+    .dropdown-menu>li>a{
+      color: #3B81BF;
+      text-transform:uppercase;
+    }
+    
+    .container{
+      color: white;
+      width: 95%;
+    }
+    
+    
+      /*Header*/
+      #header{
+        text-align: center;
+        margin-bottom: 3%;
+        margin-top: 10%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    font-family: 'Roboto', sans-serif;
+      }
+    
+
+    
+    .Twtbtn{
+      padding: 3px;
+      margin: 5px;
+      border-radius: 7px;
+      background-color: black;
+      border-color: black;
+    }
+    
+    .btn-navbar{
+      background-color: #f0641f;
+      color: black;
+    }
+    /*testing*/
+    .lettuce{
+      text-align: center;
+      color:#fff !important;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    /* NOTE: This is for the appended data  */
+    /* Style the buttons that are used to open and close the accordion panel */
+    .accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+    }
+    
+    .active, .accordion:hover {
+      background-color: #ccc;
+    }
+    
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+      background-color: #222;
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+    }
+    /* NOTE: end of appended data */
+    
+    img{
+    width: 250px;
+    height: auto;
+    margin: 7px;
+    }
+    
+    .card{
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .card-block{
+    margin-top: 40px;
+    }
+    .fa-television{
+      color: green;
+    }
+
+
+.navbar-fixed-bottom{
+    text-align: center;
+    display: inline-block;
+    float: none;
 }

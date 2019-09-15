@@ -8,9 +8,10 @@
     <!--Links for CSS-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-        crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
     <link href="assets/css/app.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -18,26 +19,72 @@
 <body>
     <!-- Link to all the certification projects -->
     <header id="header" class="page-header">
-        <div class="logo">
-            <img id="header-img" src="media/cook.png" alt="">
-        </div>
         <nav id="nav-bar">
-            <ul>
-                <li><a class="nav-link" href="">Who are We</a></li>
-                <li><a class="nav-link" href="">What We Do</a></li>
-                <li><a class="nav-link" href="">Packages</a></li>
-            </ul>
-        </nav>
+                <div class="navbar navbar-inverse navbar-fixed-top">
+                        <!-- Navbar -->
+                        <div class="container-fluid">
+                          <!-- Container -->
+                          <div class="navbar-header">
+                            <img id="header-img" src="media/cook.png" alt="" height="42" width="42">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                              <a class="navbar-brand" id="navbar-brand" href="#">Greta's Goodies</a>
+                          </div>
+                          <ul class="nav navbar-nav navbar-right">
+                                <li class="nav-link"><a href="#">What We Do</a></li>
+                                <li class="nav-link"><a href="#">Who We Are</a></li>
+                                <li class="nav-link"><a href="#">Goodies</a></li>
+                              </ul>
+                        </div><!-- end of container -->
+                      </div><!-- <end of navbar > -->
+                    </nav>
+                  
     </header>
 
     <section id="hero"></section>
-    <div class="container">
-    </div>
+    <section></section>
+    <section></section>
+    <!-- Sticky bottom nav-bar -->
+        <nav class="navbar navbar-inverse navbar-fixed-bottom">
+                    <div class="collapse navbar-collapse container-fluid">
+                            <!--.nav-collapse -->
+                            <ul class="nav navbar-nav">
+                              <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="far fa-check-square"></i> Front End Intermediate Projects <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="https://nerajno.github.io/Random-Quote-Machine/#"><i class="fa fa-random" aria-hidden="true"></i> Random Quote Machine  <i class='far fa-check-square' aria-hidden="true"></i></a></li>
+                                  <li><a href="https://nerajno.github.io/Weather-App/"><i class="fas fa-sun fa-pulse" aria-hidden="true"></i> Weather App <i class='far fa-check-square'></i></a></li>
+                                  <li><a href="https://nerajno.github.io/FCC-Wiki_app/"><i class="fa fa-search" aria-hidden="true"></i> Wikipedia Viewer <i class='far fa-check-square' aria-hidden="true"></i></a></li>
+                                  <li><a href="https://nerajno.github.io/FCC-TwitchTV-Viewer/"><i class="fas fa-video" aria-hidden="true"></i> Twitch Tv Viewer <i class='far fa-check-square' aria-hidden="true"></i></a></li>
+                                </ul>
+                              </li>
+                              <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-spinner fa-pulse fa-1.4x fa-fw"></i> Other FCC Front-End Projects <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                  
+                                  <li><a href="https://nerajno.github.io/Terminus/#" class="nav-link"><i class="fas fa-chart-line" aria-hidden="true"></i>  Tribute Page  <i class="fa fa-spinner fa-pulse fa-fw" aria-hidden="true"></i></a></li>
+                                  <li><a href="https://nerajno.github.io/Terminus/#" class="nav-link"><i class="fas fa-briefcase" aria-hidden="true"></i>  Personal Portfolio  <i class="fa fa-spinner fa-pulse fa-fw"></i></a></li>
+                                  <li><a href="https://nerajno.github.io/Terminus/#" class="nav-link"><i class="fas fa-calculator" aria-hidden="true"></i>  Javascript Calculator  <i class="fa fa-spinner fa-pulse fa-fw" aria-hidden="true"></i></a></li>
+                                  <li><a href="https://nerajno.github.io/Terminus/#" class="nav-link"><i class="fas fa-stopwatch" aria-hidden="true"></i>  Pomodoro Clock  <i class="fa fa-spinner fa-pulse fa-fw"></i></a></li>
+                                  <li><a href="https://nerajno.github.io/Terminus/#" class="nav-link"><i class="fas fa-gamepad" aria-hidden="true"></i>  Tic Tac Toe Game  <i class="fa fa-spinner fa-pulse fa-fw" aria-hidden="true"></i></a></li>
+                                  <li><a href="https://nerajno.github.io/Terminus/#" class="nav-link"><i class="fas fa-trophy" aria-hidden="true"></i>  Simon Game  <i class="fa fa-spinner fa-pulse fa-fw" aria-hidden="true"></i></a></li>
+                                </ul>
+                              </li>
+                              <li class="twtbtn"><button type="button" class="Twtbtn btn btn-outline-primary" role="button"><a href="https://twitter.com/nerajno"  target="_blank"><span class="fab fa-twitter"></span> Say Hi </a></button></li>
+                            </ul>
+                          </div><!-- </div></.nav-collapse> -->
+                          </nav>
+
 
 
     <!-- Javascript and Jquery links   -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.1.js" integrity="sha256-VvnF+Zgpd00LL73P2XULYXEn6ROvoFaa/vbfoiFlZZ4=" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
 
 </body>
