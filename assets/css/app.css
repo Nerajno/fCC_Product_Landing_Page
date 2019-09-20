@@ -1,9 +1,21 @@
 .carousel-item {
     height: 100vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: no-repeat center center scroll contain;
+    -webkit-background-size:auto cover;
+    -moz-background-size:auto cover;
+    -o-background-size:auto cover;
+    background-size: auto cover;
+    text-shadow: 1px 1px black;
   }
+
+  #about{
+    padding
+    height: 100vh;
+    text-align: center;
+  }
+
+  .section{
+    height: 100vh;
+  }
+
+  
