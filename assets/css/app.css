@@ -14,12 +14,29 @@
     height: 100vh;
   }
 
-  #about{
+  #skills{
     height : 100vh;
-    text-align: center;
+    text-align: left;
     padding-top: 60px;
   }
 
+  #about{
+    height : 100vh;
+    text-align: left;
+    padding-top: 60px;
+    width: 96vw;
+  }
   
-
+  #goodies{
+    height : 100vh;
+    text-align: left;
+    padding-top: 60px;
+    width: 96vw;
+  }
   
+  #contact{
+    height : 100vh;
+    text-align: left;
+    padding-top: 60px;
+    width: 96vw;
+  }
