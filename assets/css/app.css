@@ -12,12 +12,15 @@
 
   .section{
     height: 100vh;
+    padding-top: 60px;
+    padding-bottom: 50px;
   }
 
   #skills{
     height : 100vh;
     text-align: left;
     padding-top: 60px;
+    padding-bottom: 50px;
   }
 
   #about{
@@ -40,3 +43,9 @@
     padding-top: 60px;
     width: 96vw;
   }
+
+  #header-img{
+    height: 40px;
+    max-width: 40px;
+  }
+   /* ^ still need to wrk on this */
