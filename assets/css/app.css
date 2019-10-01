@@ -40,7 +40,7 @@
   #contact{
     height : 100vh;
     text-align: left;
-    padding-top: 60px;
+    padding-top: 100px;
     width: 96vw;
   }
 
@@ -49,3 +49,6 @@
     max-width: 40px;
   }
    /* ^ still need to wrk on this */
+
+
+   
