@@ -51,4 +51,16 @@
    /* ^ still need to wrk on this */
 
 
-   
+  h5{
+    text-align: center;
+  }
+
+  #video{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .card-group{
+    display: flex;
+  }
