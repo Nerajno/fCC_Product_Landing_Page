@@ -32,6 +32,8 @@
     padding-top: 60px;
     padding-bottom: 50px;
     background-color: #57cdff;
+    color: white;
+    text-shadow: 1px 1px black;
   }
 
   #about{
