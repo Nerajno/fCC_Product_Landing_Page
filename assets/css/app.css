@@ -1,4 +1,14 @@
+ /* navbar end */
+#navbarResponsive{
+ color:#57cdff;
+}
 
+#header-img{
+  height: 40px;
+  max-width: 40px;
+}
+ /* ^ still need to wrk on this */
+ /* navbar end */
 
 .carousel-item {
     height: 100vh;
@@ -21,6 +31,7 @@
     text-align: left;
     padding-top: 60px;
     padding-bottom: 50px;
+    background-color: #57cdff;
   }
 
   #about{
@@ -34,7 +45,8 @@
     height : 100vh;
     text-align: left;
     padding-top: 60px;
-    width: 96vw;
+    width: auto;
+    background-color: #57cdff;
   }
   
   #contact{
@@ -44,11 +56,7 @@
     width: 96vw;
   }
 
-  #header-img{
-    height: 40px;
-    max-width: 40px;
-  }
-   /* ^ still need to wrk on this */
+  
 
 
   h5{
