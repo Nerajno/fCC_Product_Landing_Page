@@ -3,9 +3,17 @@
  color:#57cdff;
 }
 
+
 #header-img{
   height: 40px;
   max-width: 40px;
+}
+
+.logoUnit logo {
+  float: left;
+}
+.logoUnit a {
+  position: relative;
 }
  /* ^ still need to wrk on this */
  /* navbar end */
