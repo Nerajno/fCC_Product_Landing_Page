@@ -90,6 +90,19 @@
     background-color: #57cdff;
   }
   
+  .goodiesContent{
+    padding-top: 2%;
+    margin: 0 auto;
+    width: 80vw;
+    letter-spacing: 0.1em;
+  }
+
+  .goodiesContentDescriptor{
+  margin: 0 auto;
+  padding-bottom: 1.5%;
+  text-align: center;
+  }
+
   #contact{
     height : 100vh;
     text-align: left;
