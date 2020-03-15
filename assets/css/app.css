@@ -9,12 +9,18 @@
   max-width: 40px;
 }
 
-.logoUnit logo {
+.logoUnit {
   float: left;
+  display: inline-block;
 }
 .logoUnit a {
   position: relative;
+  display: inline-block;
 }
+
+.logo {
+  display: inline-block; 
+  margin: 0 10px}
  /* ^ still need to wrk on this */
  /* navbar end */
 
