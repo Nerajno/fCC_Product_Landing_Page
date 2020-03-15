@@ -21,6 +21,10 @@
 .logo {
   display: inline-block; 
   margin: 0 10px}
+
+  a.nav-link:hover {
+    color:#57cdff;
+  }
  /* ^ still need to wrk on this */
  /* navbar end */
 
@@ -45,9 +49,30 @@
     text-align: left;
     padding-top: 60px;
     padding-bottom: 50px;
-    background-color: #57cdff;
+    /* background-color: #57cdff; */
     color: white;
     text-shadow: 1px 1px black;
+    background-image: url(/media/CookieContent.jpg);
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    /* Full height */
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+
+  .skillsContent{
+    padding-top: 2%;
+    margin: 0 auto;
+    width: 60vw;
+    letter-spacing: 0.1em;
+    /* position: absolute;
+    z-index: 2; */
+    padding-bottom: 2%;
   }
 
   #about{
@@ -75,8 +100,10 @@
   
 
 
-  h5{
+  h4, h5{
     text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
   #video{
