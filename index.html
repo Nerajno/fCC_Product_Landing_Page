@@ -207,34 +207,48 @@
   </section>
   <section id="contact" class="container-fluid" >
       <h5>Say Hello or Drop Us A Line or Two</h5>
-      <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-        <form  id="form" action="https://www.freecodecamp.com/email-submit">
-          <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" placeholder="Octavios Spiegel">
-          </div>
-          <div>
-            <label for="mail">E-mail:</label>
-            <input type="email" id="email" name="email" placeholder="Octo@hotbod.com">
-          </div>
-          <div>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea placeholder="Your message here. ">
-          </div>
-          <div class="button">
-              <input type="submit" id="submit">
-            </div>
-        </form>
+      <!-- Button trigger modal -->
+      <div class="col-lg-12 text-center">
+      <button type="button" class="btn btn-primary text-center" data-toggle="modal" data-target="#exampleModalCenter">
+      	Launch demo modal
+      </button>
     </div>
-  </div>
-</div>
 
-<div class="text-center">
-  <button>  <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Launch
-      Modal Contact Form</a></button>
-</div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+      	aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      	<div class="modal-dialog modal-dialog-centered" role="document">
+      		<div class="modal-content">
+      			<div class="modal-header">
+      				<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+      				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      					<span aria-hidden="true">&times;</span>
+      				</button>
+      			</div>
+      			<div class="modal-body">
+      				<form>
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword">Password</label>
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label class="form-check-label"><input type="checkbox"> Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+      			</div>
+      			<div class="modal-footer">
+      				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      				<button type="button" class="btn btn-primary">Save changes</button>
+      			</div>
+      		</div>
+      	</div>
+      </div>
   </section>
     <!-- Sticky bottom nav-bar  ????? -->
   </main>
