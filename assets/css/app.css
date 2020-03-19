@@ -70,8 +70,6 @@
     margin: 0 auto;
     width: 60vw;
     letter-spacing: 0.1em;
-    /* position: absolute;
-    z-index: 2; */
     padding-bottom: 2%;
   }
 
@@ -80,6 +78,12 @@
     text-align: left;
     padding-top: 60px;
     width: 96vw;
+    position: relative;
+  }
+
+.card{
+  height: 70vh;
+  font-size: fit-height;
   }
   
   #goodies{
