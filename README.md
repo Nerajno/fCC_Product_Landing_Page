@@ -7,7 +7,7 @@ Created to fullfill the requirements freeCodeCamp Responsive Web Cert.
 * FontAwesome
 
 ### Hosted on : 
- **Github Pages** => 
+ **Github Pages** =>  https://nerajno.github.io/fCC_Product_Landing_Page/
 
 Screenshot of the WebPage Running
 ![Image of Screenshot](https://github.com/Nerajno/fCC_Product_Landing_Page/blob/master/media/bakingScreenShot.png)
