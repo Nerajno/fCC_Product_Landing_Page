@@ -112,24 +112,6 @@
               cookie types : oatmeal, chocolate chip, brownies, peanut butter, butter, etc. A complete list of cookies and its diverse history can be 
               found <a href="https://bit.ly/39Ueme3">here</a>
           </p>
-
-          <!-- <h5>Bakery Summary Skills</h5>
-          <div class="container-fluid">
-          <div>
-            <ul>
-              <li>1</li>
-              <li>1</li>
-              <li>1</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>1</li>
-              <li>1</li>
-              <li>1</li>
-            </ul>
-          </div>   
-        </div>   -->
       </div>
   </section>
   <section id="about" class="container-fluid"> 
@@ -240,31 +222,29 @@
       	<div class="modal-dialog modal-dialog-centered" role="document">
       		<div class="modal-content">
       			<div class="modal-header">
-      				<h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+      				<h5 class="modal-title" id="exampleModalCenterTitle">Required for 
+              </h5>
       				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
       					<span aria-hidden="true">&times;</span>
       				</button>
       			</div>
       			<div class="modal-body">
-      				<form>
+      				<form id="form" action="https://www.freecodecamp.com/email-submit">
                 <div class="form-group">
                     <label for="inputEmail">Email</label>
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <label for="inputPassword">Password</label>
-                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    <input  name="email"
+                    id="email"
+                    type="email"
+                    placeholder="Enter your email address"
+                    required>
                 </div>
                 <div class="form-group">
                     <label class="form-check-label"><input type="checkbox"> Remember me</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                </div> 
+                <input id="submit" type="submit" value="Submit Info" class="btn" />
             </form>
       			</div>
-      			<div class="modal-footer">
-      				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      				<button type="button" class="btn btn-primary">Save changes</button>
-      			</div>
+      	
       		</div>
       	</div>
       </div>
