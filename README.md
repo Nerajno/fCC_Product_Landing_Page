@@ -1,10 +1,16 @@
 # fCC_Product_Landing_Page
 FCC: Product Landing Page
+Created to fullfill the requirements freeCodeCamp Responsive Web Cert.
 
-Todo =>  Due: April 1, 2020
-- [ ] Fix navbar for hover or active to be blue.
-- [ ] fix media query that fixes images captions on carousel @ less than 700 px.
-- [x] Need to work on the content. 
-- [ ] Need to make it mobile responsive.
- 
+### Built with :
+* BootStrap 
+* FontAwesome
+
+### Hosted on : 
+ **Github Pages** => 
+
+Screenshot of the WebPage Running
+![Image of Screenshot](https://github.com/Nerajno/fCC_Product_Landing_Page/blob/master/media/bakingScreenShot.pn
+
+
 
