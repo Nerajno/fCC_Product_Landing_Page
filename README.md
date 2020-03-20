@@ -10,7 +10,7 @@ Created to fullfill the requirements freeCodeCamp Responsive Web Cert.
  **Github Pages** => 
 
 Screenshot of the WebPage Running
-![Image of Screenshot](https://github.com/Nerajno/fCC_Product_Landing_Page/blob/master/media/bakingScreenShot.pn
+![Image of Screenshot](https://github.com/Nerajno/fCC_Product_Landing_Page/blob/master/media/bakingScreenShot.png)
 
 
 
