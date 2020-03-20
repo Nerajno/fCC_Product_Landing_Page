@@ -85,6 +85,14 @@
   height: 70vh;
   font-size: fit-height;
   }
+
+.card-text{
+  font-size:0.75em; 
+}
+
+.card-img-top{
+  display: flex;
+}
   
   #goodies{
     height : 100vh;
